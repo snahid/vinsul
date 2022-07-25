@@ -16568,7 +16568,8 @@ input.cart-plus-minus-box {
 /* ----------------------------------------------------
     END
 ---------------------------------------------------- */
-html, body {
+html,
+body {
   scroll-behavior: smooth;
 }
 
@@ -16658,7 +16659,7 @@ html, body {
 .header-top-btn .topbtn {
   padding: 8px 20px;
   font-size: 14px;
-  background-color: #CA2C32;
+  background-color: #ca2c32;
   color: #fff;
 }
 
@@ -16721,14 +16722,14 @@ html, body {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 24px;
-  background-color: #CA2C32;
+  background-color: #ca2c32;
   color: #fff;
   border-radius: 3px;
   padding: 5px 0;
   transition: 0.3s ease-in-out;
 }
 .ltn-form-wrapper .enquiry-form-right form .submit-wrapper .submit_btn:hover {
-  background-color: #171B2A;
+  background-color: #171b2a;
 }
 
 .our-expert-worker .ltn__blog-author a {
@@ -16793,7 +16794,7 @@ html, body {
   transform: translateY(-50%);
   content: "";
   font-family: "Font Awesome 5 Free";
-  color: #CA2C32;
+  color: #ca2c32;
 }
 .resources-faq ul li p {
   margin-bottom: 0;
@@ -16814,7 +16815,7 @@ html, body {
   transform: translateY(-50%);
   content: "";
   font-family: "Font Awesome 5 Free";
-  color: #CA2C32;
+  color: #ca2c32;
 }
 .product-details-advantages li p {
   margin-bottom: 0;
@@ -16827,7 +16828,7 @@ html, body {
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: transparent;
-  border-color: #CA2C32;
+  border-color: #ca2c32;
   color: #0b1e33;
 }
 .know-morebtn-wrapper .know-morebtn:hover {
@@ -16877,7 +16878,7 @@ html, body {
   font-weight: 500;
   font-size: 18px;
   padding-left: 30px;
-  border-left: 2px solid #CA2C32;
+  border-left: 2px solid #ca2c32;
 }
 .product-details-slider-wrapper .productdetails .product-details-enquire {
   margin-top: 30px;
@@ -16885,7 +16886,7 @@ html, body {
 .product-details-slider-wrapper .productdetails .product-details-enquire .product-enquire {
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #CA2C32;
+  background-color: #ca2c32;
 }
 
 .product-details-tab {
@@ -16904,7 +16905,7 @@ html, body {
   text-align: center;
 }
 .product-details-tab .tab-contact .product-details-contact a {
-  background-color: #CA2C32;
+  background-color: #ca2c32;
 }
 .product-details-tab .tab-discussion table {
   border-collapse: collapse;
@@ -16965,11 +16966,11 @@ html, body {
   transition: 0.1s ease-in-out;
 }
 .product-details-tab .tools-guides .tools-inner .tools-left .inner-right a:hover {
-  color: #CA2C32;
+  color: #ca2c32;
   text-decoration: underline;
 }
 .product-details-tab .tools-guides .tools-inner .tools-right .pdownload-btn {
-  background-color: #CA2C32;
+  background-color: #ca2c32;
   color: #fff;
   font-weight: 600;
   padding-top: 10px;
@@ -17018,7 +17019,7 @@ html, body {
   transform: translateY(-50%);
   content: "";
   font-family: "Font Awesome 5 Free";
-  color: #CA2C32;
+  color: #ca2c32;
 }
 .product-details-advantages li p {
   margin-bottom: 0;
@@ -17029,13 +17030,23 @@ html, body {
   margin-bottom: 0px !important;
 }
 
+#quick_view_modal {
+  z-index: 999999999999;
+}
+
 .ltn__social-media a:hover i {
-  color: #CA2C32;
+  color: #ca2c32;
 }
 
 .footer-logo1-wrapper .footer-logo1 {
   height: 40px;
   margin-top: 23px;
+}
+
+.industries-wrapper .ltn__img-slide-info {
+  opacity: 1;
+  visibility: visible;
+  bottom: -65px;
 }
 
 /*# sourceMappingURL=style.css.map */
