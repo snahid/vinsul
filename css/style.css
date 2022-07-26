@@ -8261,6 +8261,11 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   border-color: var(--border-color-8);
   transition: all 0.3s ease 0s;
 }
+@media (max-width: 767px) {
+  .ltn__product-item-3 {
+    min-height: 342px;
+  }
+}
 .ltn__product-item-3 .product-img::before {
   display: none;
 }
@@ -9007,6 +9012,11 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   flex: inherit;
   text-align: left;
   position: relative;
+}
+@media (max-width: 1024px) {
+  .ltn__shop-details-tab-inner-2 .ltn__shop-details-tab-menu .nav a {
+    margin-right: 12px;
+  }
 }
 .ltn__shop-details-tab-inner-2 .ltn__shop-details-tab-menu .nav a::before {
   position: absolute;
@@ -16699,6 +16709,13 @@ body {
   font-size: 42px;
   margin-bottom: 40px;
 }
+@media (max-width: 767px) {
+  .ltn-form-wrapper .enquiry-form-right .col-6 {
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+}
 .ltn-form-wrapper .enquiry-form-right form label {
   font-weight: 600;
   text-transform: uppercase;
@@ -16863,6 +16880,11 @@ body {
   content: "";
   z-index: 1;
 }
+@media (max-width: 1024px) {
+  .product-details-slider-wrapper .product-details-slider {
+    display: none;
+  }
+}
 .product-details-slider-wrapper .product-details-left {
   margin-top: -265px;
 }
@@ -16896,6 +16918,11 @@ body {
 
 .product-details-tab {
   margin-top: 400px;
+}
+@media (max-width: 1024px) {
+  .product-details-tab {
+    margin-top: 50px !important;
+  }
 }
 .product-details-tab .tab-contact h2 {
   color: #0b1e33;
@@ -17061,17 +17088,37 @@ body {
 .margin2 {
   margin-top: 270px !important;
 }
+@media (max-width: 1024px) {
+  .margin2 {
+    margin-top: 50px !important;
+  }
+}
 
 .margin3 {
   margin-top: 100px !important;
+}
+@media (max-width: 1024px) {
+  .margin3 {
+    margin-top: 50px !important;
+  }
 }
 
 .margin4 {
   margin-top: 130px !important;
 }
+@media (max-width: 1024px) {
+  .margin4 {
+    margin-top: 50px !important;
+  }
+}
 
 .margin5 {
   margin-top: 220px !important;
+}
+@media (max-width: 1024px) {
+  .margin5 {
+    margin-top: 50px !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

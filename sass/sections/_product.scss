@@ -224,6 +224,9 @@
     border: 2px solid;
     border-color: var(--border-color-8);
     transition: all 0.3s ease 0s;
+    @media(max-width: 767px){
+        min-height: 342px;
+    }
     .product-img {
         &::before {
             display: none;
@@ -972,6 +975,9 @@
                 flex: inherit;
                 text-align: left;
                 position: relative;
+                @media(max-width: 1024px){
+                    margin-right: 12px;
+                }
                 &::before {
                     position: absolute;
                     content: "";

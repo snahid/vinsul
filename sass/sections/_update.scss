@@ -153,6 +153,14 @@ body {
             margin-bottom: 40px;
         }
 
+        .col-6{
+            @media(max-width: 767px){
+                width: 100%;
+                max-width: 100%;
+                flex: 0 0 100%;
+            }
+        }
+
         form {
             label {
                 font-weight: 600;
@@ -354,6 +362,9 @@ body {
         top: -350px;
         content: "";
         z-index: 1;
+        @media(max-width: 1024px){
+            display: none;
+        }
     }
 
     .product-details-left {
@@ -399,6 +410,9 @@ body {
 
 .product-details-tab {
     margin-top: 400px;
+    @media(max-width: 1024px){
+        margin-top: 50px !important;
+    }
 
     .tab-contact {
         h2 {
@@ -632,15 +646,27 @@ body {
 }
 .margin2{
     margin-top: 270px !important;
+    @media(max-width: 1024px){
+        margin-top: 50px !important;
+    }
 }
 .margin3{
     margin-top: 100px !important;
+    @media(max-width: 1024px){
+        margin-top: 50px !important;
+    }
 }
 .margin4{
     margin-top: 130px !important;
+    @media(max-width: 1024px){
+        margin-top: 50px !important;
+    }
 }
 .margin5{
     margin-top: 220px !important;
+    @media(max-width: 1024px){
+        margin-top: 50px !important;
+    }
 }
 
 // Footer
