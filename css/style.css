@@ -5078,7 +5078,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .ltn__main-menu > ul > li {
   display: inline-block;
   position: relative;
-  margin-right: 20px;
+  margin-right: 15px;
 }
 
 .ltn__main-menu > ul > li:last-child {
@@ -5086,7 +5086,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .ltn__main-menu > ul > li > a {
-  font-size: 18px;
+  font-size: 19px;
   padding: 20px 10px;
   display: inline-block;
   white-space: nowrap;
@@ -5123,7 +5123,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .ltn__main-menu .sub-menu li {
   line-height: 1.3;
   padding: 12px 25px 12px 30px;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .mega-menu li ul {
@@ -6146,7 +6146,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
 /* Sticky Background Black */
 .sticky-active.ltn__sticky-bg-black {
-  background-color: var(--ltn__heading-color);
+  background-color: green;
 }
 .sticky-active.ltn__sticky-bg-black .ltn__main-menu > ul > li > a,
 .sticky-active.ltn__sticky-bg-black .header-wishlist a,
@@ -7275,7 +7275,8 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .ltn__product-pointer > ul > li:hover .ltn__pointer-icon {
   transform: rotate(45deg);
 }
-.ltn__product-pointer ul li, .ltn__product-pointer ol li {
+.ltn__product-pointer ul li,
+.ltn__product-pointer ol li {
   margin-top: 5px;
 }
 .ltn__product-pointer img {
@@ -17118,6 +17119,18 @@ body {
 @media (max-width: 1024px) {
   .margin5 {
     margin-top: 50px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .home-feature {
+    padding-top: 0px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .home-key {
+    padding-top: 0px !important;
   }
 }
 

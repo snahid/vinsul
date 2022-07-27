@@ -1,6 +1,6 @@
 class Header extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
+  connectedCallback() {
+    this.innerHTML = `
         <div class="col header-menu-column">
         <div class="header-menu d-none d-xl-block">
             <nav>
@@ -178,17 +178,15 @@ class Header extends HTMLElement {
             </nav>
         </div>
     </div>
-        `
-    }
+        `;
+  }
 }
 
-customElements.define(`my-menu`, Header)
+customElements.define(`my-menu`, Header);
 
-
-
-class MHeader extends HTMLElement{
-    connectedCallback(){
-        this.innerHTML = `
+class MHeader extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
         
         <div
         id="ltn__utilize-mobile-menu"
@@ -451,17 +449,15 @@ class MHeader extends HTMLElement{
         </div>
       </div>
 
-        `
-    }
+        `;
+  }
 }
 
-customElements.define(`my-mmenu`, MHeader)
+customElements.define(`my-mmenu`, MHeader);
 
-
-
-class Footer extends HTMLElement{
-    connectedCallback(){
-        this.innerHTML = `
+class Footer extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
         
         <footer class="ltn__footer-area">
             <div class="footer-top-area section-bg-2 plr--5">
@@ -578,8 +574,8 @@ class Footer extends HTMLElement{
             </div>
         </footer>
 
-        `
-    }
+        `;
+  }
 }
 
-customElements.define(`my-footer`, Footer)
+customElements.define(`my-footer`, Footer);

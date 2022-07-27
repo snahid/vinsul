@@ -237,13 +237,13 @@
 .ltn__main-menu > ul > li {
     display: inline-block;
     position: relative;
-    margin-right: 20px;
+    margin-right: 15px;
 }
 .ltn__main-menu > ul > li:last-child {
     margin-right: 0px;
 }
 .ltn__main-menu > ul > li > a {
-    font-size: 18px;
+    font-size: 19px;
     padding: 20px 10px;
     display: inline-block;
     white-space: nowrap;
@@ -277,7 +277,7 @@
 .ltn__main-menu .sub-menu li {
     line-height: 1.3;
     padding: 12px 25px 12px 30px;
-    font-size: 16px;
+    font-size: 17px;
 }
 .mega-menu li ul {
     border-top: 0;
@@ -1282,7 +1282,8 @@
 }
 /* Sticky Background Black */
 .sticky-active.ltn__sticky-bg-black {
-    background-color: var(--ltn__heading-color);
+    // background-color: var(--ltn__heading-color);
+    background-color: green;
     .ltn__main-menu > ul > li > a,
     .header-wishlist a,
     .mini-cart-icon,
